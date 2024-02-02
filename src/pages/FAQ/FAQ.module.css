@@ -1,7 +1,62 @@
 .container {
-  border: 2px solid white;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Inter", sans-serif;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
+
+.wrapper {
+  display: flex;
+  width: 70vw;
+}
+
+.left,
+.right {
+  flex: 1;
+}
+
+.left .faqTitle {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 0.75rem;
+}
+
+.left .faqLabel {
+  font-size: 0.9rem;
+  color: var(--color-gray);
+  width: 80%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.rightText {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  padding: 0;
+}
+
+.rightLabel {
+  font-size: 0.9rem;
+  color: var(--color-gray);
+  width: 80%;
+  margin: 0.5rem 0 2rem 0;
+}
+
+.accordian {
+  background-color: var(--color-bg);
+  color: white;
+  border-top: 1px solid var(--color-gray);
+}
+
+.accordianDetails {
+  color: var(--color-gray);
+  font-size: 0.9rem;
 }
