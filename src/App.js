@@ -1,27 +1,13 @@
-import './App.css';
-import Footer from './components/Footer/Footer';
-import Clients from './pages/Clients/Clients';
-import FAQ from './pages/FAQ/FAQ';
-import Home from './pages/Home/Home'
-import Introduction from './pages/Introduction/Introduction';
-import NewsLetter from './pages/Newsletter/NewsLetter';
-import Practices from './pages/Practices/Practices';
-import Team from './pages/Team/Team';
-import WhyUs from './pages/WhyUs/WhyUs';
+import LandingPage from "./pages/LandingPage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <Introduction />
-      <WhyUs />
-      <Practices />
-      <Clients />
-      <Team />
-      <FAQ />
-      <NewsLetter />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<LandingPage />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

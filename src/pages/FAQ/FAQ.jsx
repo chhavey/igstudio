@@ -17,15 +17,22 @@ function FAQ() {
           </p>
         </div>
         <div className={styles.right}>
-          <p className={styles.rightText}>
-            Do I need a personal injury report?
-          </p>
-          <p className={styles.rightLabel}>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequatduis enim velit mollit Exer. Amet minim
-            mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-            officia consequatduis enim velit mollit Exer.
-          </p>
+          <Accordion className={styles.accordion}>
+            <AccordionSummary
+              expandIcon={<Expand />}
+              aria-controls="panel0-content"
+              id="panel0-header"
+              className={styles.rightText}
+            >
+              Do I need a personal injury report?
+            </AccordionSummary>
+            <AccordionDetails className={styles.accordionDetails}>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequatduis enim velit mollit Exer.
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequatduis enim velit mollit Exer.
+            </AccordionDetails>
+          </Accordion>
           <Accordion className={styles.accordion}>
             <AccordionSummary
               expandIcon={<Expand />}

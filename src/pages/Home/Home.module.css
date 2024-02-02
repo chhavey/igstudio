@@ -51,10 +51,11 @@ h2:last-of-type {
   border-radius: 2rem;
   width: 85%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .input {
-  margin-left: 1rem;
+  margin-left: 0rem;
   background-color: #282828;
   border: none;
   font-size: 0.85rem;

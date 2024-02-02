@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Home.module.css";
 import NavBar from "../../components/NavBar/NavBar";
 import man from "../../assets/man.png";
+import { ReactComponent as Email } from "../../assets/Email.svg";
 
 function Home() {
   return (
@@ -20,9 +21,17 @@ function Home() {
           </p>
 
           <div className={styles.emailWrapper}>
+            <Email
+              style={{
+                marginLeft: "1rem",
+                height: "1rem",
+                opacity: "25%",
+              }}
+            />
             <input
               className={styles.input}
               type="text"
+              name="email"
               placeholder="Enter your email address"
             />
             <div className={styles.Btn}>Let's Talk</div>
