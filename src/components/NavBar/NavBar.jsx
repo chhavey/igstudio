@@ -7,14 +7,14 @@ function NavBar() {
     <div className={styles.container}>
       <div className={styles.logo}>
         <img src={logo} alt="logo" />
-        <p>IGSTUDIO</p>
+        <p className={styles.logoText}>IGSTUDIO</p>
       </div>
 
       <div className={styles.menu}>
-        <p>Home</p>
-        <p>Attorneys</p>
-        <p>Practice Areas</p>
-        <p>About Us</p>
+        <p className={styles.menuText}>Home</p>
+        <p className={styles.menuText}>Attorneys</p>
+        <p className={styles.menuText}>Practice Areas</p>
+        <p className={styles.menuText}>About Us</p>
       </div>
 
       <div className={styles.button}>Contact Now</div>

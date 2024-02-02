@@ -7,12 +7,14 @@ import Introduction from './pages/Introduction/Introduction';
 import NewsLetter from './pages/Newsletter/NewsLetter';
 import Practices from './pages/Practices/Practices';
 import Team from './pages/Team/Team';
+import WhyUs from './pages/WhyUs/WhyUs';
 
 function App() {
   return (
     <div className="App">
       <Home />
       <Introduction />
+      <WhyUs />
       <Practices />
       <Clients />
       <Team />

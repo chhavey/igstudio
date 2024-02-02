@@ -14,8 +14,10 @@
   padding: 0.5rem 1rem;
 }
 
-.logo p {
+.logo .logoText {
   font-weight: 600;
+  color: white;
+  font-size: 0.85rem;
 }
 
 .menu {
@@ -24,19 +26,21 @@
   gap: 1rem;
 }
 
-.menu p {
+.menu .menuText {
   padding: 0.5rem 1rem;
+  color: white;
 }
 
 .button {
   border: 2px solid white;
   padding: 0.5rem 1rem;
+  font-size: 1rem;
 }
 
 .logo:hover {
   cursor: pointer;
 }
-.menu p:hover,
+.menu .menuText:hover,
 .button:hover {
   cursor: pointer;
   background-color: var(--color-gray);

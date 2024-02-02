@@ -13,7 +13,7 @@ function Home() {
             <h2>You don't have to</h2>
             <h2>Fight them Alone.</h2>
           </div>
-          <p>
+          <p className={styles.leftPanelText}>
             Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
             curabitur sodales conubia ut inceptos faucibus himenaeos tortor
             eget, hac massa gravida arcu interdum proin curae.

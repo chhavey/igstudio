@@ -37,7 +37,7 @@ h2:last-of-type {
   font-size: 3rem;
 }
 
-.leftPanel p {
+.leftPanel .leftPanelText {
   color: var(--color-gray);
   font-size: 0.9rem;
   font-weight: 500;
