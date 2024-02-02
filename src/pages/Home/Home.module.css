@@ -76,3 +76,7 @@ input:focus {
   font-weight: 600;
   font-size: 0.85rem;
 }
+
+.Btn:hover {
+  cursor: pointer;
+}

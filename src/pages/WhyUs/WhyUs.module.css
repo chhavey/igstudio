@@ -32,6 +32,12 @@
   max-width: 20vw;
 }
 
+.card:hover {
+  background-color: var(--color-darkgray);
+  border: none;
+  cursor: pointer;
+}
+
 .gift {
   height: 60px;
   width: 60px;

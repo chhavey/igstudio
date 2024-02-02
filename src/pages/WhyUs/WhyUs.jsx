@@ -16,10 +16,7 @@ function WhyUs() {
           </p>
           <div className={styles.Btn}>Read More</div>
         </div>
-        <div
-          className={styles.card}
-          style={{ backgroundColor: "var(--color-darkgray)", border: "none" }}
-        >
+        <div className={styles.card}>
           <Gift className={styles.gift} />
           <p className={styles.cardText}>100% Success Rate</p>
           <p className={styles.cardText}>

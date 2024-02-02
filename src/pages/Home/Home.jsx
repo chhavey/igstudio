@@ -23,7 +23,7 @@ function Home() {
             <input
               className={styles.input}
               type="text"
-              placeholder="Enter you email address"
+              placeholder="Enter your email address"
             />
             <div className={styles.Btn}>Let's Talk</div>
           </div>
