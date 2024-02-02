@@ -1,7 +1,94 @@
 .container {
-  border: 2px solid white;
-  height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.top {
+  width: 70vw;
+  margin: 3rem 0 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.topLeft .leftText {
+  font-size: 2rem;
+}
+
+.topRight {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.leftBtn {
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: var(--color-white);
+  color: black;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.rightBtn {
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: var(--color-primary);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.leftBtn:hover,
+.rightBtn:hover {
+  cursor: pointer;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  margin-bottom: 2rem;
+}
+
+.card {
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-gray);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 20vw;
+}
+
+.card:hover {
+  background-color: var(--color-darkgray);
+  border: none;
+  cursor: pointer;
+}
+
+.jane,
+.devon,
+.robert {
+  height: 60px;
+  width: 60px;
+}
+
+.cardText:first-of-type {
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+.cardText:last-of-type {
+  color: var(--color-gray);
+  font-size: 0.75rem;
+  margin: 0 0 1rem 0;
 }
