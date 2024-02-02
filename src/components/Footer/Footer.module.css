@@ -1,7 +1,77 @@
 .container {
-  border: 2px solid white;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--color-black);
+  padding: 5rem 0;
+}
+
+.wrapper {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.logo .logoText {
+  font-weight: 600;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu .menuText {
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.menu .menuText:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.socialIcons:hover {
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  font-size: 0.9rem;
+}
+
+.info p:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
