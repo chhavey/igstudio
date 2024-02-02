@@ -40,7 +40,7 @@
   font-size: 1rem;
   font-weight: 600;
   margin: 0.5rem 0;
-  padding: 0;
+  padding: 0 !important;
 }
 
 .rightLabel {
@@ -50,13 +50,13 @@
   margin: 0.5rem 0 2rem 0;
 }
 
-.accordian {
-  background-color: var(--color-bg);
-  color: white;
-  border-top: 1px solid var(--color-gray);
+.accordion {
+  background-color: var(--color-bg) !important;
+  color: white !important;
+  border-top: 1px solid var(--color-gray) !important;
 }
 
-.accordianDetails {
+.accordionDetails {
   color: var(--color-gray);
   font-size: 0.9rem;
 }
