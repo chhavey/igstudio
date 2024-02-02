@@ -1,0 +1,78 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--color-black);
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.man {
+  height: 65vh;
+}
+
+.leftPanel {
+  width: 41%;
+  height: 88%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2:first-of-type {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+h2:last-of-type {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.leftPanel p {
+  color: var(--color-gray);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.emailWrapper {
+  display: flex;
+  background-color: #282828;
+  padding: 0.25rem;
+  border-radius: 2rem;
+  width: 85%;
+  justify-content: space-between;
+}
+
+.input {
+  margin-left: 1rem;
+  background-color: #282828;
+  border: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: white;
+  outline: none;
+}
+
+input:focus {
+  border: none;
+}
+
+.Btn {
+  text-align: center;
+  background-color: var(--color-primary);
+  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+  color: var(--color-black);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
